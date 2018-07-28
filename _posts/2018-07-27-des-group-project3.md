@@ -24,7 +24,7 @@ comments: true
 데이터를 가져와서 등급별 통계를 만든다.
 
 
-<img src="https://bluehyun.github.io/assets/lol/stackver3.jpeg">
+<img src="https://bluehyun.github.io/assets/img/lol/stackver3.jpeg?raw=true">
 
 ## apache kafka
 
