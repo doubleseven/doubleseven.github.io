@@ -23,6 +23,7 @@ comments: true
 각 등급별(브론즈/실버/골드/다이아/플랜티넘/마스터/챌린지)
 데이터를 가져와서 등급별 통계를 만든다.
 
+### 사용 기술 스택 정리
 
 <img src="https://bluehyun.github.io/assets/img/lol/stackver3.jpeg?raw=true">
 
