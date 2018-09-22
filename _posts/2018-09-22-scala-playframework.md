@@ -13,7 +13,7 @@ comments: true
 이부분을 scala 의 웹 프레임워크인 playframework를 사용하여 변경하고자 한다.
 
 
-##framework?
+## framework?
 * 다양한 언어의 framework 가 존재함
 	* php
 		- **codeigniter**, **laravel**, **yii**, falcon
@@ -25,7 +25,7 @@ comments: true
 		- Play
 * mvc 패턴을 사용한다
 
-###mvc 패턴이란?
+### mvc 패턴이란?
 ```
 모델-뷰-컨트롤러(Model–View–Controller, MVC)는 소프트웨어 공학에서 사용되는 소프트웨어 디자인 패턴이다.
 이 패턴을 성공적으로 사용하면, 사용자 인터페이스로부터 비즈니스 로직을 분리하여 애플리케이션의 시각적 요소나 그 이면에서 실행되는 비즈니스 로직을 서로 영향 없이 쉽게 고칠 수 있는 애플리케이션을 만들 수 있다.
@@ -35,14 +35,14 @@ MVC에서 모델은 애플리케이션의 정보(데이터)를 나타내며, 뷰
 * 모델은 모델의 상태에 변화가 있을 때 컨트롤러와 뷰에 이를 통보한다. 이와 같은 통보를 통해서 뷰는 최신의 결과를 보여줄 수 있고, 컨트롤러는 모델의 변화에 따른 적용 가능한 명령을 추가·제거·수정할 수 있다. 어떤 MVC 구현에서는 통보 대신 뷰나 컨트롤러가 직접 모델의 상태를 읽어 오기도 한다.
 * 뷰는 사용자가 볼 결과물을 생성하기 위해 모델로부터 정보를 얻어 온다.
 
-##scala play?
+## scala play?
 
 * conf/routes 가 중요하다
 * actor 모델을 기반으로 한 akka를 사용한다
 * 빌드 툴인 sbt(**simple build tool**)를 사용한다
 
 
-###SBT(Simple Build Tool) 란?
+### SBT(Simple Build Tool) 란?
 ```
 SBT는 최신 빌드 도구 중 하나이다. 스칼라로 작성되었고,
 스칼라에 사용하기 편한 기능을 많이 제공하기는 하지만, SBT 자체는 범용 빌드 도구이다.
@@ -65,9 +65,9 @@ Akka는 병행(concurrent) 및 분산 처리를 위한 오픈 소스 프로젝�
 * 액터는 일종의 경량 프로세서다.
 
 
-##scala play
+## scala play
 
-###구조
+### 구조
 <table>
 <tr>
 <th>구조</th><th colspan='2'>설명</th>
@@ -111,7 +111,7 @@ Akka는 병행(concurrent) 및 분산 처리를 위한 오픈 소스 프로젝�
 </tr>
 </table>
 
-#####참고자료
+##### 참고자료
 * mvc 패턴 [링크](https://ko.wikipedia.org/wiki/모델-뷰-컨트롤러)
 * 누구나 쉽게 스칼라 + 플레이(한빛미디어, 고락윤 저)
 * 빌드 도구 SBT(Simple Build Tool)[링크](https://twitter.github.io/scala_school/ko/sbt.html)
