@@ -92,19 +92,19 @@ Akka는 병행(concurrent) 및 분산 처리를 위한 오픈 소스 프로젝�
 <td>routes</td><td>도메인 경로와 컨트롤러를 이어주는 역할을 하는 매우 중요한 녀석</td>
 </tr>
 <tr>
-<td>test</td><td colspan=2>테스트 코드</td>
+<td>test</td><td colspan="2">테스트 코드</td>
 </tr>
 <tr>
-<td>lib</td><td colspan=2>라이브러리 sbt로 관리하지 않는 라이브러리를 추가하여 관리 할 수 있다</td>
+<td>lib</td><td colspan="2">라이브러리 sbt로 관리하지 않는 라이브러리를 추가하여 관리 할 수 있다</td>
 </tr>
 <tr>
-<td>logs</td><td colspan=2>로그 파일이 저장되는 폴더</td>
+<td>logs</td><td colspan="2">로그 파일이 저장되는 폴더</td>
 </tr>
 <tr>
 <td>public</td><td>CSS,JS</td><td>스타일 이나 자바스크립트를 저장할 폴더</td>
 </tr>
 <tr>
-<td>project</td><td rowspan=2>빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
+<td>project</td><td rowspan="2">빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
 </tr>
 <tr>
 <td>target</td><td>자동빌드 파일이니 수정하지 않도록 주의하자</td>
