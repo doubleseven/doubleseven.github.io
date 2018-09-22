@@ -104,7 +104,7 @@ Akka는 병행(concurrent) 및 분산 처리를 위한 오픈 소스 프로젝�
 <td>public</td><td>CSS,JS</td><td>스타일 이나 자바스크립트를 저장할 폴더</td>
 </tr>
 <tr>
-<td>project</td><td rowspan="2">빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
+<td>project</td><td rowspan='2'>빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
 </tr>
 <tr>
 <td>target</td>
