@@ -70,45 +70,45 @@ Akka는 병행(concurrent) 및 분산 처리를 위한 오픈 소스 프로젝�
 ### 구조
 <table>
 <tr>
-<th>구조</th><th colspan='2'>설명</th>
-<tr>
-<tr>
-<td rowspan='4'>app</td><td>controllers</td><td>처리를 담당하는 컨트롤러 모델에서 넘어온 값을 가공하여 뷰로 전달한다</td>
+  <th>구조</th><th colspan='2'>설명</th>
 </tr>
 <tr>
-<td>views</td><td>html 출력 및 컨트롤러에서 넘어온 데이터 값을 화면에 출력한다</td>
+  <td rowspan='4'>app</td><td>controllers</td><td>처리를 담당하는 컨트롤러 모델에서 넘어온 값을 가공하여 뷰로 전달한다</td>
+</tr>
+<tr>
+  <td>views</td><td>html 출력 및 컨트롤러에서 넘어온 데이터 값을 화면에 출력한다</td>
 </tr>
 
 <tr>
-<td>models</td><td>데이터베이스와 연결을 하여 데이터를 주고받는 부분을 담당한다</td>
+  <td>models</td><td>데이터베이스와 연결을 하여 데이터를 주고받는 부분을 담당한다</td>
 </tr>
 <tr>
-<td>기타</td><td>홈페이지가 작동하는 필터 혹은 서비스 같은 추가 비즈니스 로직을 구현한다</td>
+  <td>기타</td><td>홈페이지가 작동하는 필터 혹은 서비스 같은 추가 비즈니스 로직을 구현한다</td>
 </tr>
 <tr>
-<td rowspan='2'>conf</td><td>application.conf</td><td>db설정 및 각종 설정을 담당한다</td>
+  <td rowspan='2'>conf</td><td>application.conf</td><td>db설정 및 각종 설정을 담당한다</td>
 </tr>
 <tr>
-<td>routes</td><td>도메인 경로와 컨트롤러를 이어주는 역할을 하는 매우 중요한 녀석</td>
+  <td>routes</td><td>도메인 경로와 컨트롤러를 이어주는 역할을 하는 매우 중요한 녀석</td>
 </tr>
 <tr>
-<td>test</td><td colspan="2">테스트 코드</td>
+  <td>test</td><td colspan="2">테스트 코드</td>
 </tr>
 <tr>
-<td>lib</td><td colspan="2">라이브러리 sbt로 관리하지 않는 라이브러리를 추가하여 관리 할 수 있다</td>
+  <td>lib</td><td colspan="2">라이브러리 sbt로 관리하지 않는 라이브러리를 추가하여 관리 할 수 있다</td>
 </tr>
 <tr>
-<td>logs</td><td colspan="2">로그 파일이 저장되는 폴더</td>
+  <td>logs</td><td colspan="2">로그 파일이 저장되는 폴더</td>
 </tr>
 <tr>
-<td>public</td><td>CSS,JS</td><td>스타일 이나 자바스크립트를 저장할 폴더</td>
+  <td>public</td><td>CSS,JS</td><td>스타일 이나 자바스크립트를 저장할 폴더</td>
 </tr>
 <tr>
-<td>project</td><td rowspan='2'>빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
+  <td>project</td><td rowspan='2'>빌드파일(자동)</td><td>빌드하는데 필요한 파일이 정의됨</td>
 </tr>
 <tr>
-<td>target</td>
-<td>자동빌드 파일이니 수정하지 않도록 주의하자</td>
+  <td>target</td>
+  <td>자동빌드 파일이니 수정하지 않도록 주의하자</td>
 </tr>
 </table>
 
