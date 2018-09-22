@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               bluehyun's 공부하는 블로그
+title:               bluehyun's 삽질기록
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -21,7 +21,7 @@ tagline:             하고싶은거 하고 정리하는
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  하고싶은거 하고 정리하는 블로그
+  하고싶은거 하고 정리하는
 
 
 # This should be the same author as first entry in `_data/authors.yml`
