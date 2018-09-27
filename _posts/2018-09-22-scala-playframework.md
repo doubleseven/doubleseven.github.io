@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "scala play framework 란"
+title:  "scala play framework 정리 - 1"
 subtitle:   "scala playframework"
 categories: dev
 tags: scala
