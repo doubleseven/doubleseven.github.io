@@ -2,7 +2,8 @@
 layout: post
 title:  "scala play framework 정리 - 1"
 subtitle:   "scala playframework"
-description : "scala playframework, scala, playframework"
+description : "scala playframework"
+keywords : "scala playframework, scala, playframework"
 categories: dev
 tags: scala
 comments: true
