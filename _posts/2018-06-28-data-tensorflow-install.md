@@ -2,6 +2,8 @@
 layout: post
 title:  "tensorflow 설치하기"
 subtitle:   "패캠 데이터엔지니어 수업"
+description : "tensorflow 설치하기"
+keywords : "텐서플로 설치하기, tensorflow 설치"
 categories: data
 tags: tensorflow
 comments: true

@@ -2,6 +2,8 @@
 layout: post
 title:  "jupyter 로 머신러닝 맛보기"
 subtitle:   "jupyter 로 머신러닝 맛보기"
+description : "jupyter 머신러닝"
+keywords : "jupyter 머신러닝, jupyter machine learning, jupyter notebook"
 categories: data
 tags: jupyter
 comments: true
@@ -156,5 +158,3 @@ cost function : log-likelihood 를 사용
 
 비슷한걸로는
 seq2vec , doc2vec 이 있다.
-
-

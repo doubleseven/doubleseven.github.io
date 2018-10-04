@@ -2,6 +2,8 @@
 layout: post
 title:  "tensorflow tutorial"
 subtitle:   "tensorflow 로 머신러닝 맛보기"
+description : "tensorflow로 머신러닝 맛보기"
+keywords : "tensorflow 머신러닝, tensorflow machine learning, tensorflow, machine learning"
 categories: data
 tags: tensorflow
 comments: true

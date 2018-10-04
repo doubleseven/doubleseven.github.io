@@ -2,6 +2,8 @@
 layout: post
 title:  "180727 프로젝트 회의"
 subtitle:   "패스트캠퍼스 데이터 엔지니어링 수업 에서 그룹 프로젝트"
+description : "team project"
+keywords : "spark, kafka, lol api"
 categories: data
 tags: project
 comments: true

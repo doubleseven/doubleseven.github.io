@@ -2,6 +2,8 @@
 layout: post
 title:  "데이터 엔지니어 수업 정리 180622"
 subtitle:   "패캠 데이터엔지니어 수업"
+description : "패스트캠퍼스 데이터엔지니어 수업"
+keywords : "패스트캠퍼스, 데엔스1기"
 categories: data
 tags: fcdes
 comments: true

@@ -2,6 +2,8 @@
 layout: post
 title:  "반지만들기"
 subtitle:   "반지만들기"
+description : "반지만들기"
+keywords : "반지만들기, 은반지만들기"
 categories: diary
 tags: diary
 comments: true

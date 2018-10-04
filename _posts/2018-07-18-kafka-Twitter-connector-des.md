@@ -2,6 +2,8 @@
 layout: post
 title:  "kafka twitter connector 실습"
 subtitle:   "kafka twitter connector 실습해보자"
+description : "kafka twitter connector"
+keywords : "kafka twitter connector, kafka, spark, spark streaming, spark MLlib, zookeeper"
 categories: data
 tags: kafka
 comments: true

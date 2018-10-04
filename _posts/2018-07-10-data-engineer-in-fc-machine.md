@@ -2,6 +2,8 @@
 layout: post
 title:  "rnn 로 단어예측 모델 만들기"
 subtitle:   "rnn 로 단어예측 모델 만들기"
+description : "rnn "
+keywords : "rnn , rnn model, python numpy, machine learning"
 categories: data
 tags: tensorflow
 comments: true

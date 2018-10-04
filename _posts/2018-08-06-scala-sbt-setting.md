@@ -2,6 +2,8 @@
 layout: post
 title:  "scala sbt setting"
 subtitle:   "스칼라 sbt 삽질 설정"
+description : "scala sbt"
+keywords : "scala sbt, 스칼라 sbt 설정, inteilj scala sbt"
 categories: dev
 tags: scala
 comments: true

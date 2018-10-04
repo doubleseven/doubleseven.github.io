@@ -2,6 +2,8 @@
 layout: post
 title:  "zeppelin 빌드하기"
 subtitle:   "zeppelin 빌드하기"
+description : "zeppelin build"
+keywords : "zeppelin build, 제플린 빌드하기"
 categories: data
 tags: zeppelin
 comments: true
