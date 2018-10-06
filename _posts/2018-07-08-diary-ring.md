@@ -6,7 +6,6 @@ description : "반지만들기"
 keywords : "반지만들기, 은반지만들기"
 categories: diary
 tags: diary
-published : false
 comments: true
 ---
 ### 아이폰에서 사진 옮겨와서 올리니 exif 가 안맞나.. 사진이 계속 요상하다.. exiftool 로 수정해서 올려도 변화가 없다..에라 모르겠다;
