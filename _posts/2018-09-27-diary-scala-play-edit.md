@@ -2,6 +2,7 @@
 layout: post
 title:  "scala play framework 관한 정리.."
 subtitle:   "scala playframework"
+description : "scala playframework 정리하기 싫다"
 categories: diary
 tags: diary
 comments: true

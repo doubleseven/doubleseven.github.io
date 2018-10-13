@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "scala play framework 정리 - 2"
-subtitle:   "scala playframework"
+subtitle:   "scala playframework 정리"
 description : "scala playframework"
 keywords : "scala playframework 란, scala, scala playframework 정리"
 categories: dev
