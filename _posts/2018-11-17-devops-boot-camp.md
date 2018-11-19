@@ -171,13 +171,13 @@ docker pull nginx:latest ↵
 docker images ↵
 시 생성된 이미지가 나온다
 
-<img src="docker-image.png">
+<img src="bluehyun.github.io/assets/img/docker/week1/docker-image.png">
 
 
 docker run -d -p 80:80 --name NginX nginx:latest
 실행시 에러남 80 포트가 잡혀있기 때문이다
 
-<img src="docker-run-error.png">
+<img src="bluehyun.github.io/assets/img/docker/week1/docker-run-error.png">
 
 
 docker run -d -p 8080:80 --name NginX nginx:latest ↵ docker ps -a ↵
