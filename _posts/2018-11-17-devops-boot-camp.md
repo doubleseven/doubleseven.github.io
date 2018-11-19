@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "패스트캠퍼스 DevOps BOOTCAMP 3기 1"
+title:  "패스트캠퍼스 DevOps BOOTCAMP 3기 1주차"
 subtitle:   "DevOps 공부"
 description : "DevOps, devops, 패스트캠퍼스, 패스트캠퍼스 BOOTCAMP"
 keywords : "devops, DevOps,"
 categories: devops
 comments: true
 ---
-
-
-# DevOps 구축 BOOTCAMP - 1
+# DevOps 구축 BOOTCAMP - 1주차
 
 __애플워치4 사고싶다__
 
@@ -139,11 +137,61 @@ nginx ↵
 ### DNS
 Domain Name Service
 
+### Port
+* TCP/IP 로 접속시 마지막 종단점
+* 일반적으로 SSH(22) , HTTP(80) WAS(8080) 을 부여
+* 도메인(URL) 로 접속 시 기본적으로 80번 포트를 사용(__생략가능__)
+* 보안 강화 목적으로 다른 포트로 변경하기도 한다(__설정과정이 귀찮고, 복잡하기도 하지만, 무작위 접속을 어느정도 예방 가능__)
+
+
+### Docker
+
+* 컨데이너 기반의 오픈소스 가상화 플랫폼
+* 다양한 프로그램, 실행환경을 __컨테이너__ 로 추상화 하고 동일한 인터페이스를 제공하여 프로그램 배포 및 관리를 단순화 할 수 있음
+* OS(Host)위에 또 다른 OS(Guest)를 올려야 하는 비효율적인 가상 머신의 단점을 극복하기 위해
+나온 가상화 어플리케이션
+
+
+#### Docker Container
+* Docker Engine 위에서 동작하는 가상화 된 OS 어플리케이션
+* VM처럼 하드웨어 가상화가 아닌 OS만을 가상화하여 Host OS와 커널 등 겹치는 기능을 공유
+* 컨테이너 내에서 동작할 application에 필요한 binary만 패키징되어 가볍고 속도가 빠름
+
+
+
+
+amazon-linux-extras install docker ↵
+service docker start ↵
+docker pull nginx:latest ↵
+
+1. amazon-linux-extras 레포지토리를 활용해 docker 설치
+2. docker 데몬 실행
+3. dockerhub에서 nginx 이미지 다운로드
+
+docker images ↵
+시 생성된 이미지가 나온다
+
+<img src="docker-image.png">
+
+
+docker run -d -p 80:80 --name NginX nginx:latest
+실행시 에러남 80 포트가 잡혀있기 때문이다
+
+<img src="docker-run-error.png">
+
+
+docker run -d -p 8080:80 --name NginX nginx:latest ↵ docker ps -a ↵
+
+nginx:latest 이미지를 기반으로 docker container 실행
+
+docker ps -a
+
+실행중인 docker 컨테이너 프로세스 확인
 
 
 ## sub session
 
-간단한 리눅스 명령어들
+#### 간단한 리눅스 명령어들
 
 ### ls
 
