@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Data
+title: 데이터
 slug: data
 menu: true
 submenu: true
-order: 2
+order: 5
 description: >
-  Data!!!!
+  데이터 적제함
 ---

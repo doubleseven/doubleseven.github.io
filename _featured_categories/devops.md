@@ -4,7 +4,7 @@ title: DevOps
 slug: devops
 menu: true
 submenu: false
-order: 4
+order: 6
 description: >
   DevOps!!!!
 ---

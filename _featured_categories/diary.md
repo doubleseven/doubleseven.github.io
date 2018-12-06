@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Diary
+title: 일기장
 slug: diary
 menu: true
 submenu: false
-order: 1
+order: 3
 description: >
-  일상생활
+  일상생활 있었던 일들
 ---

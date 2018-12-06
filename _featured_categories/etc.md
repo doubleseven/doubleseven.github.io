@@ -1,10 +1,10 @@
 ---
 layout: list
-title: ETC
+title: 기타
 slug: etc
 menu: true
 submenu: true
-order: 5
+order: 7
 description: >
-  일상생활
+  기타 둥둥 
 ---
