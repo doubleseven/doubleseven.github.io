@@ -1,14 +1,15 @@
-{% assign post = include.post %} {% assign format = include.format | default:"%d %b %Y" %}
+{% assign post = include.post %}
+{% assign format = include.format | default:"%d %b %Y" %}
 
 <li class="h4">
     {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{" /assets/img/ " | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></a>
+    <a class="post-thumbnail" style="background-image: url({{" /assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{ post.url | relative_url }}"></a>
     {% else %}
     <a href="{{ post.url | relative_url }}" data-flip="title">
         <span>{{ post.title }}</span>
     </a>
     {% endif %}
     <small><time datetime="{{ post.date | date_to_xmlschema }}">
-    {{ post.date | date:format }}
+     - {{ post.date | date:format }}
   </time></small>
 </li>
